@@ -1,0 +1,7 @@
+services:
+  cmake_cpp17:
+    container_name: cmake_cpp17
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: cmake_cpp17:latest
